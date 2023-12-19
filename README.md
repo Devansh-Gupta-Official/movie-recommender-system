@@ -17,9 +17,10 @@ This repository contains code for building a movie recommendation system using *
 
 ### Example:
 ![image](https://github.com/Devansh-Gupta-Official/movie-recommender-system/assets/100591612/849f2241-261b-4d03-b378-e0dd6f0d5cd1)
-Based on User #1 and #2, they both watched and liked Titanic and a walk to remember.
-Item-based collaborative filtering will correlate both movies together based on user #1 and #2 behaviour. 
-User #3 watched “Titanic” and did not watch a “Walk to remember”, so the recommender system will recommend it for him/her. 
+
+1. Based on User #1 and #2, they both watched and liked Titanic and a walk to remember.
+2. Item-based collaborative filtering will correlate both movies together based on user #1 and #2 behaviour. 
+3. User #3 watched “Titanic” and did not watch a “Walk to remember”, so the recommender system will recommend it for him/her. 
 
 ## Overview
 This project aims to create a recommendation system for movies based on user ratings. Collaborative filtering is used to predict movie preferences for users based on their historical ratings by grouping similar movies together.
