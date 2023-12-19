@@ -2,6 +2,25 @@
 
 This repository contains code for building a movie recommendation system using **item based collaborative filtering** techniques. The dataset used is a collection of movie ratings by users, allowing us to predict movie recommendations based on user preferences.
 
+## Problem Statement
+- This notebook implements a movie recommender system. 
+- Recommender systems are used to suggest movies or songs to users based on their interest or usage history. 
+- For example, Netflix recommends movies to watch based on the previous movies you've watched.  
+- In this example, we will use Item-based Collaborative Filter 
+- Dataset MovieLens: https://grouplens.org/datasets/movielens/100k/
+
+## ITEM-BASED COLLABORATIVE FILTERING
+- Item-based collaborative filters work by recommending elements based on relationship between items and not people. 
+- The recommender system is now designed based on items (such as movies) and not users. 
+- This reduces the complexity of the problem and overcomes the challenges of user-based collaborative filtering. 
+- Unlike humans, movies, songs, and products features and tastes do not change over time. 
+
+### Example:
+![image](https://github.com/Devansh-Gupta-Official/movie-recommender-system/assets/100591612/849f2241-261b-4d03-b378-e0dd6f0d5cd1)
+Based on User #1 and #2, they both watched and liked Titanic and a walk to remember.
+Item-based collaborative filtering will correlate both movies together based on user #1 and #2 behaviour. 
+User #3 watched “Titanic” and did not watch a “Walk to remember”, so the recommender system will recommend it for him/her. 
+
 ## Overview
 This project aims to create a recommendation system for movies based on user ratings. Collaborative filtering is used to predict movie preferences for users based on their historical ratings by grouping similar movies together.
 
