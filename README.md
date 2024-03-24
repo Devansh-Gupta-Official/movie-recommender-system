@@ -60,6 +60,13 @@ The system starts by cleaning the dataset, handling missing values, and eliminat
 - **Popular Movies:** Identification of highly rated and frequently rated movies to understand their popularity.
 - **User Activity:** Analysis of user engagement through the number of ratings per user.
 
+![image](https://github.com/Devansh-Gupta-Official/movie-recommender-system/assets/100591612/001bb910-7575-4481-9513-63c3ad3cbe05)
+
+![image](https://github.com/Devansh-Gupta-Official/movie-recommender-system/assets/100591612/143972dc-adb2-40ec-b691-5ed19f972b5e)
+
+
+
+
 ### Collaborative Filtering
 - **Item-Based Filtering:** Implementation of item-based collaborative filtering techniques. Utilizes similarity measures (e.g., cosine similarity) between movies to make recommendations.
 - **Predictions:** Generating personalized movie recommendations for users based on their historical ratings and movie similarities.
